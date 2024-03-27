@@ -1,4 +1,11 @@
 #include <iostream>
+#include"Programa_1.cpp"
+#include"Programa_2.cpp"
+#include"Programa_3.cpp"
+#include"Programa_4.cpp"
+#include"Programa_5.cpp"
+#include"Programa_6.cpp"
+#include"Programa_7.cpp"
 #include"Programa_8.cpp"
 #include"Programa_9.cpp"
 #include"Programa_10.cpp"
@@ -11,6 +18,13 @@ using namespace std;
 
 // Declaraciones de funciones para cada programa
 
+void Programa_1();
+void Programa_2();
+void Programa_3();
+void Programa_4();
+void Programa_5();
+void Programa_6();
+void Programa_7();
 void Programa_8();
 void Programa_9();
 void Programa_10();
@@ -53,7 +67,28 @@ int main() {
         cout << "\n";
 
         // Ejecutar el programa correspondiente segun la opcion elegida
-        switch (opcion) {        
+        switch (opcion) {
+			case 1:
+				Programa_1();
+				break;   
+			case 2:
+				Programa_2();
+				break; 
+			case 3:
+				Programa_3();
+				break; 
+			case 4:
+				Programa_4();
+				break; 
+			case 5:
+				Programa_5();
+				break;
+			case 6:
+				Programa_6();
+				break; 
+			case 7:
+				Programa_7();
+				break; 	     
             case 8:
                 Programa_8();
                 break;
