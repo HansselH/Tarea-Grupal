@@ -13,6 +13,12 @@
 #include"Programa_12.cpp"
 #include"Programa_13.cpp"
 #include"Programa_14.cpp"
+#include"Programa_15.cpp"
+#include"Programa_17.cpp"
+#include"Programa_18.cpp"
+#include"Programa_19.cpp"
+#include"Programa_20.cpp"
+
 
 using namespace std;
 
@@ -32,6 +38,12 @@ void Programa_11();
 void Programa_12();
 void Programa_13();
 void Programa_14();
+void Programa_15();
+void Programa_16();
+void Programa_17();
+void Programa_18();
+void Programa_19();
+void Programa_20();
 
 
 int main() {
@@ -56,9 +68,9 @@ int main() {
         cout << "14. Programa_14: Mover un punto en toda la pantalla" << endl;
         cout << "15. Programa_15: Simulacion de un Cajero (Autamata)" << endl;
         cout << "16. Programa_16: Calcular la hipotenusa" << endl;
-        cout << "17. Programa_17: Libre (pueden realizar el programa que ustedes quieran)" << endl;
-        cout << "18. Programa_18: Libre (pueden realizar el programa que ustedes quieran)" << endl;
-        cout << "19. Programa_19: Libre (pueden realizar el programa que ustedes quieran)" << endl;
+        cout << "17. Programa_17: Libre: Calculadora de 25 funciones" << endl;
+        cout << "18. Programa_18: Libre: Juego de Ahorcado " << endl;
+        cout << "19. Programa_19: Libre: Juego de buscaminas" << endl;
         cout << "20. Programa_20: Libre (pueden realizar el programa que ustedes quieran)" << endl;
         cout << "21. Programa_21: Menu Principal" << endl;
         cout << "0. Salir" << endl;
@@ -110,6 +122,25 @@ int main() {
             case 14:
                 Programa_14();
                 break;
+	    case 15;
+		Programa_15();
+		break;
+	    case 16;
+		Programa_16();
+		break;
+	    case 17;
+		Programa_17();
+		break;
+	    case 18;
+		Programa_18();
+		break;
+	    case 19;
+		Programa_19();
+		break;
+	    case 20;
+		Programa_20();
+		break;
+		
       case 0:
                 cout << "Saliendo del programa." << endl;
                 break;
