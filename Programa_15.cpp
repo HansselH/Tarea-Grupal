@@ -72,6 +72,6 @@ void Programa_15() {
         }
     } while (opcion != 4);
 
-    return 0;
-}system("pause");
+system("pause");
+}
 

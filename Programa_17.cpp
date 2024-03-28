@@ -1,9 +1,10 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 #include <math.h>
 
-void Programa_17()
-{
+void Programa_17(){
+
+
 
          float x,y,s,d,p,c,sr,rq,res,ros,cb,ch,co,cop,se,sep,ta,tap,cub,cubp,in,inp,lo,lop,ln,lnp;
 
@@ -197,6 +198,6 @@ void Programa_17()
 
              }
 
-         }while(x<>0);
-
-}system("pause");
+         }while(x!=0);
+		system("pause");
+}

@@ -19,6 +19,6 @@ void Programa_16() {
     // Mostrar el resultado
     cout << "La longitud de la hipotenusa es: " << hipotenusa << endl;
 
-    return 0;
-}system("pause");
+system("pause");
+}
 

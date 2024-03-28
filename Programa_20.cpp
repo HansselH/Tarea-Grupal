@@ -90,6 +90,6 @@ void Programa_20() {
 
     cout << "¡Felicidades! ¡Has ganado el juego!" << endl;
 
-    return 0;
-}system("pause");
+system("pause");
+}
 

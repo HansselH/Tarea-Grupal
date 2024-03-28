@@ -14,6 +14,7 @@
 #include"Programa_13.cpp"
 #include"Programa_14.cpp"
 #include"Programa_15.cpp"
+#include"Programa_16.cpp"
 #include"Programa_17.cpp"
 #include"Programa_18.cpp"
 #include"Programa_19.cpp"
@@ -122,22 +123,22 @@ int main() {
             case 14:
                 Programa_14();
                 break;
-	    case 15;
+	    case 15:
 		Programa_15();
 		break;
-	    case 16;
+	    case 16:
 		Programa_16();
 		break;
-	    case 17;
+	    case 17:
 		Programa_17();
 		break;
-	    case 18;
+	    case 18:
 		Programa_18();
 		break;
-	    case 19;
+	    case 19:
 		Programa_19();
 		break;
-	    case 20;
+	    case 20:
 		Programa_20();
 		break;
 		

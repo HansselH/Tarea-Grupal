@@ -108,6 +108,5 @@ void Programa_18()
         printf("\n\n  Has perdido.");
     }
     printf("\n\n");
-    system("PAUSE");
-    return 0;
-}system("pause");
+    system("pause");
+}

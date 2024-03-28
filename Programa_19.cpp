@@ -169,5 +169,5 @@ void Programa_19() {
             goto INICIO;
         }
     }
-  return 0;
-}system("pause");
+system("pause");
+}
